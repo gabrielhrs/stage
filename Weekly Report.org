@@ -1,0 +1,103 @@
+* Findings
+This file contains the weekly journal of activities for my master's
+internship on statistical verification and developments thereof within
+the context of SimGrid. The year is 2015. 
+** Bibliography
+[1] C. Rosa, Performance & Correctness Assessment of Distributed Systems, Thesis. 
+[2] A. Legay, B. Delahaye, S. Bensalem, Statistical Model Checking : An Overview.
+[3] P. Ballarine, M. Duflot et al., HASL : an Expressive Language for Statistical Verification of Stochastic Models.
+[4] S. Merz, M. Quinson, C. Rosa, SimGrid MC : Verification Support for a Multi-API Simulation Platform. 
+[5] M. Ajmone Marsan, G. Balbo et al., Modelling With Generalised Stochastic Petri Nets.
+[6] B. Barbot, Accélération pour le Model Checking Statistique, Thesis.
+[7] B. Javadi, D. Kondon et al., Mining for Statistical Models of Availability in Large-Scale Dsitributed Systems: An Empirical Study of SETI@home.
+[8] H. Younes, R. Simmons, Statistical Probabilistic Model Checking with a Focus on Time-Bounded Properties.
+[9] V. Nimal, Statistical Approaches for Probabilistic Model Checking, Thesis.
+** Possible use cases
+* Journal
+** Week 2 mar
+*** Things Done
+- Meeting with Marie, Martin and Stephan : some clarfications on the
+  internship topic, statistical verification and the functioning of
+  SimGrid. It was decided to proceed with the study of [1] and get
+  more understading on SimGrid. 
+- Installed SimGrid and COSMOS.
+- Read [1], [2], [3] and [4].
+- Meeting with Benoît, Gabriel, Marie and Martin : clarification on
+  COSMOS and statistical verification. It was decided to search for
+  case studies that would use probabilities on models relevant for
+  SimGrid. There was no consensus yet on which way to follow, that is,
+  either to focus on performance evaluation or on using statistical
+  inference to guide path exploration. 
+*** Questions
+- Where to introduce probabilities in SimGrid (schedule time/task cost)?
+- How to connect COSMOS or a similar development with SimGrid?
+- What will be the focus of the internship?
+*** Work Planned
+- Search for case studies in [5].
+- Read the slides on SimGrid.
+- Read [6].
+** Week 9 mar
+*** Things Done
+- Reading of [6] and [5].
+- Learnt about GSPNs. 
+- Found case study in [7]
+*** Questions
+- Essentially the same of the previous week. 
+*** Work Planned
+- Find more appropriate case study.
+- Get more familiar wtih SimGrid models. 
+** Week 16 mar
+*** Things Done
+- Reunion with Marie, Martin and Stephan : It was decided to proceed
+  the development of a camppaign runner that would lunch
+  severalexperiments in parallel. The experiment in itself would be a
+  client server application in which each client would wait for a
+  Poisson distributed interval and send a task for the server to
+  compute.
+- There was some clarification on how to introduce probabilities in
+  SimGrid.
+- Written functions to calculate Poisson intervals with the Boost
+  libraries. 
+- Started the model for the client and the campaign runner.
+*** Questions
+- Relevant case sudy using probabilities that could be simulated with SimGrid?
+*** Work Planned
+- Finish the model for the client.
+- Finish the campaign runner.  
+** Week 23 mar
+*** Things Done
+- A first version of the runner was written but had problems with
+  forks and pipes. 
+- Reunion with Marie and Martin : some clarification on how to solve
+  the problems were presented by Gabriel.
+*** Questions
+- How to fully parallelize the execution of multiple experiments? (SELECT) 
+*** Work Planned
+- Finish runner.
+- Start implementation of statistical methods. 
+** Week 30 mar
+*** Things Done
+- Problems with the runner were fixed. 
+- Reunion with Marie and Stephan: I've decided to proceed with the
+  statistical methods as in [8] to start with as me and Marie would
+  examine othe methods.
+*** Questions
+- How to fully parallelize the execution of multiple experiments? (SELECT) 
+*** Work Planned
+- Implement methods concerning the statistical verification part.
+** Week 6 apr
+*** Things Done
+- First implementation of methods in [8] and [9] (Chow Robbins).
+- There were some problems with the algorithms for the estimation of
+  the sampling plan.
+- Reunion with Marie and Stephan : try and find a new algorithm for
+  the sampling plan. 
+*** Questions
+- How to fully parallelize the execution of multiple experiments?
+  (SELECT) 
+*** Work Planed
+- Finish and polish the funtions for the statistical verification
+  part. 
+- See about formulae input.
+**** TODO read the provided articles
+* Letter to the Next Guy
