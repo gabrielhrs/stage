@@ -12,7 +12,6 @@ the context of SimGrid. The year is 2015.
 [7] B. Javadi, D. Kondon et al., Mining for Statistical Models of Availability in Large-Scale Dsitributed Systems: An Empirical Study of SETI@home.
 [8] H. Younes, R. Simmons, Statistical Probabilistic Model Checking with a Focus on Time-Bounded Properties.
 [9] V. Nimal, Statistical Approaches for Probabilistic Model Checking, Thesis.
-** Possible use cases
 * Journal
 ** Week 2 mar
 *** Things Done
