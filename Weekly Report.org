@@ -101,5 +101,5 @@ the context of SimGrid. The year is 2015.
 - Finish and polish the funtions for the statistical verification
   part. 
 - See about formulae input.
-**** TODO read the provided articles
+**** TODO 
 * Letter to the Next Guy
