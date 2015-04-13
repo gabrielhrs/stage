@@ -88,7 +88,7 @@ the context of SimGrid. The year is 2015.
 - Implement methods concerning the statistical verification part.
 ** Week 6 apr
 *** Things Done
-- First implementation of methods in [8] and [9] (Chow Robbins).
+- First implementation of methods in [8] and [9] (Chows and Robbins).
 - There were some problems with the algorithms for the estimation of
   the sampling plan.
 - Reunion with Marie and Stephan : try and find a new algorithm for
