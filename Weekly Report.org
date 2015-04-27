@@ -88,7 +88,7 @@ the context of SimGrid. The year is 2015.
 - Implement methods concerning the statistical verification part.
 ** Week 6 apr
 *** Things Done
-- First implementation of methods in [8] and [9] (Chows and Robbins).
+- First implementation of methods in [8] and [9] (Chow and Robbins).
 - There were some problems with the algorithms for the estimation of
   the sampling plan.
 - Reunion with Marie and Stephan : try and find a new algorithm for
@@ -101,5 +101,30 @@ the context of SimGrid. The year is 2015.
 - Finish and polish the funtions for the statistical verification
   part. 
 - See about formulae input.
+** Week 13 Apr
+*** Things Done
+- Finished first implmentation of (Chow Robbins)
+- First implementation of Confidence Interval (Central Limit Theorem).
+*** Questions
+- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- How to fully parallelize the execution of multiple experiments?
+  (SELECT) 
+- Differences between what was described in [8] and the implementation?
+*** Work Planned
+- See about formulae input.
+- Separate methods.
+** Week 20 Apr
+*** Things Done
+- Separated the methods (SPRT/C&R/CI). 
+- Saw about plotting possibilities. 
+*** Questions
+- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- How to fully parallelize the execution of multiple experiments?
+  (SELECT) 
+- Differences between what was described in [8] and the implementation?
+*** Work Planned
+- See about formula input and its consequences.
+- Establish an interface for communication with SimGrid models.
+- Check the statistical methods for implementation mistakes. 
 **** TODO 
 * Letter to the Next Guy
