@@ -18,7 +18,7 @@ the context of SimGrid. The year is 2015.
 - Meeting with Marie, Martin and Stephan : some clarfications on the
   internship topic, statistical verification and the functioning of
   SimGrid. It was decided to proceed with the study of [1] and get
-  more understading on SimGrid. 
+  more understanding of SimGrid. 
 - Installed SimGrid and COSMOS.
 - Read [1], [2], [3] and [4].
 - Meeting with Benoît, Gabriel, Marie and Martin : clarification on
@@ -44,11 +44,11 @@ the context of SimGrid. The year is 2015.
 - Essentially the same of the previous week. 
 *** Work Planned
 - Find more appropriate case study.
-- Get more familiar wtih SimGrid models. 
+- Get more familiar with SimGrid models. 
 ** Week 16 mar
 *** Things Done
 - Reunion with Marie, Martin and Stephan : It was decided to proceed
-  the development of a camppaign runner that would lunch
+  the development of a campaign runner that would lunch
   severalexperiments in parallel. The experiment in itself would be a
   client server application in which each client would wait for a
   Poisson distributed interval and send a task for the server to
@@ -70,7 +70,7 @@ the context of SimGrid. The year is 2015.
 - Reunion with Marie and Martin : some clarification on how to solve
   the problems were presented by Gabriel.
 *** Questions
-- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- Relevant case study using probabilities that could be simulated with SimGrid?
 - How to fully parallelize the execution of multiple experiments? (SELECT) 
 *** Work Planned
 - Finish runner.
@@ -80,9 +80,9 @@ the context of SimGrid. The year is 2015.
 - Problems with the runner were fixed. 
 - Reunion with Marie and Stephan: I've decided to proceed with the
   statistical methods as in [8] to start with as me and Marie would
-  examine othe methods.
+  examine other methods.
 *** Questions
-- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- Relevant case study using probabilities that could be simulated with SimGrid?
 - How to fully parallelize the execution of multiple experiments? (SELECT) 
 *** Work Planned
 - Implement methods concerning the statistical verification part.
@@ -94,7 +94,7 @@ the context of SimGrid. The year is 2015.
 - Reunion with Marie and Stephan : try and find a new algorithm for
   the sampling plan. 
 *** Questions
-- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- Relevant case study using probabilities that could be simulated with SimGrid?
 - How to fully parallelize the execution of multiple experiments?
   (SELECT) 
 *** Work Planed
@@ -103,10 +103,10 @@ the context of SimGrid. The year is 2015.
 - See about formulae input.
 ** Week 13 Apr
 *** Things Done
-- Finished first implmentation of (Chow Robbins)
+- Finished first implementation of (Chow Robbins)
 - First implementation of Confidence Interval (Central Limit Theorem).
 *** Questions
-- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- Relevant case study using probabilities that could be simulated with SimGrid?
 - How to fully parallelize the execution of multiple experiments?
   (SELECT) 
 - Differences between what was described in [8] and the implementation?
@@ -118,7 +118,7 @@ the context of SimGrid. The year is 2015.
 - Separated the methods (SPRT/C&R/CI). 
 - Saw about plotting possibilities. 
 *** Questions
-- Relevant case sudy using probabilities that could be simulated with SimGrid?
+- Relevant case study using probabilities that could be simulated with SimGrid?
 - How to fully parallelize the execution of multiple experiments?
   (SELECT) 
 - Differences between what was described in [8] and the implementation?
@@ -126,5 +126,23 @@ the context of SimGrid. The year is 2015.
 - See about formula input and its consequences.
 - Establish an interface for communication with SimGrid models.
 - Check the statistical methods for implementation mistakes. 
+** Week 27 Apr
+*** Things Done
+- First implementation of a plot script for visualizing data with
+  gnuplot. 
+- Checked the algorithms for mistakes. 
+- Meeting with Marie and Stephan: it was decided to have a simple
+  implementation of a communication interface leaving most of the work
+  for the CampaignRunner. We've discussed about the limitations of the
+  methods (C&R specifically). 
+*** Questions
+- Relevant case study using probabilities that could be simulated with SimGrid?
+- How to fully parallelize the execution of multiple experiments?
+  (SELECT) 
+- Differences between what was described in [8] and the implementation?
+*** Work Planned
+- First implementation of a parser for formulae.
+- Start writing about the statistical background theory.
+- Find at least one case study. 
 **** TODO 
 * Letter to the Next Guy
