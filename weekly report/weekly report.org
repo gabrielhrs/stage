@@ -12,6 +12,8 @@ the context of SimGrid. The year is 2015.
 [7] B. Javadi, D. Kondon et al., Mining for Statistical Models of Availability in Large-Scale Dsitributed Systems: An Empirical Study of SETI@home.
 [8] H. Younes, R. Simmons, Statistical Probabilistic Model Checking with a Focus on Time-Bounded Properties.
 [9] V. Nimal, Statistical Approaches for Probabilistic Model Checking, Thesis.
+[10] K. Johnsin, S. Reed, R. Calinescu, Specification and Quantitative Analysis of Probabilistic Cloud Deployment Patterns.
+[11] S. Kikuchi, Y. Matsumoto, Performance Modeling of Concurrent Live Migration Operations in Cloud Computing Systems using PRISM Probabilistic Model Checker.
 * Journal
 ** Week 2 mar
 *** Things Done
@@ -101,7 +103,7 @@ the context of SimGrid. The year is 2015.
 - Finish and polish the funtions for the statistical verification
   part. 
 - See about formulae input.
-** Week 13 Apr
+** Week 13 apr
 *** Things Done
 - Finished first implementation of (Chow Robbins)
 - First implementation of Confidence Interval (Central Limit Theorem).
@@ -113,7 +115,7 @@ the context of SimGrid. The year is 2015.
 *** Work Planned
 - See about formulae input.
 - Separate methods.
-** Week 20 Apr
+** Week 20 apr
 *** Things Done
 - Separated the methods (SPRT/C&R/CI). 
 - Saw about plotting possibilities. 
@@ -126,7 +128,7 @@ the context of SimGrid. The year is 2015.
 - See about formula input and its consequences.
 - Establish an interface for communication with SimGrid models.
 - Check the statistical methods for implementation mistakes. 
-** Week 27 Apr
+** Week 27 apr
 *** Things Done
 - First implementation of a plot script for visualizing data with
   gnuplot. 
@@ -144,5 +146,42 @@ the context of SimGrid. The year is 2015.
 - First implementation of a parser for formulae.
 - Start writing about the statistical background theory.
 - Find at least one case study. 
+** Week 4 may
+*** Things Done
+- Found some case studies implemented in a probabilistic context that
+  could be of interest such as in [10], [11].
+- Unscheduled meeting with Marie, Gabriel: it was suggested to try and
+  use open standards such as YAML or JSON to send multiple values from
+  models to the model checker. 
+- Wrote some of the background theory about hypothesis testing and C&R.
+*** Work Planned
+- Investigate "protocol/interface" (JSON,YAML) for communication.
+- Carry on with the case studies and try to polish the code. 
+*** Questions
+- Relevant case study using probabilities that could be simulated with SimGrid?
+** Week 11 may
+*** Things Done
+- Many attempts with open-source libraries for parsers of JSON and
+  YAML that turned out to be unsuccessful. 
+- Meeting with Marie, Martin, Stephan: it was decided to go for a
+  simple implementation for the communication between models and the
+  model checker, i.e. comma separated values. It was also decided to
+  investigate the already available model of chord implemented in Java
+  whilst trying to come up with a version of the probabilistic ones. 
+*** Work Planned
+- Change the code to support sending/testing multiple values.
+- Set up a repository for the code.
+*** Questions
+- Still the case study. 
+** Week 18 may
+*** Things Done
+- First version for the multi-value interface/tests for all methods. 
+- Short meeting with Marie, Stephan: focus on the case study (chord).
+- Organized the code a bit.  
+*** Work Planned
+- Improve the code: reduce duplication, organize the input, comment. 
+*** Questions
+- Still the case study.
 **** TODO 
 * Letter to the Next Guy
+  
