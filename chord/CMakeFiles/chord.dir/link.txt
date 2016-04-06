@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -finline-functions -funroll-loops -fno-strict-aliasing -std=gnu99 -g3 -D_XOPEN_SOURCE   CMakeFiles/chord.dir/chord.c.o  -o chord  ../../../lib/libsimgrid.3.11.dylib -lm -lstdc++ -pthread -Wl,-U -Wl,_smpi_simulated_main 
